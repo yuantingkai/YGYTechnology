@@ -103,7 +103,6 @@ static NSString *const kMyContractCellIdentifier = @"myContractCellIdentifier";
         self.myContractIndentPageData = self.dataSourceArr[indexPath.section];
         [cell setIndexPath:indexPath withPageData:self.myContractIndentPageData];
     }
-    SLog(@"1");
     return cell;
 }
 
